@@ -1,5 +1,22 @@
-This file to create context about the code files in this directory.
+//----------------------------------------------------------------------
+// This file to create context about the code files in this directory.
+//
+// Author: codebeaver Dated: 3 March 2016  TAG: #mgmt
+//----------------------------------------------------------------------
+The goal is to create an application where advanced testing can occcur.  
+The fist application is the SwingContainerDemo.java
 
-1. Create 
+REQUIREMENTS:
+
+1. Provide a GUI based environment
+2. Provide an easyy integration of modules into the application.
+3. 
+
+
+Concept: Is to be able to easily integrate the modules. 
+
+NEXT STEP
+
+1. Create classes
 2. Create templates
 3. Create scripts
