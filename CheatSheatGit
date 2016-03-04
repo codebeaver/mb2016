@@ -1,0 +1,35 @@
+
+3 METHODS TO MOVE DATA
+
+1. Creating the data new
+2. Downloading from bitbucket
+3. Uploading to bitbucket
+
+//--------------------------------------------------------
+// 1. Setting a directory containing software development files and other artefacts.
+//
+// CREATION OF A NEW REPOSITORY
+1. Move to the root directory for your application.
+2. Issue the command:
+#git init
+
+// LOADING YOUR APPLICATION FILES INTO THE GIT REPO
+#git add .   // Will add all the files recursively from the current directory.
+#git status  // Will show all the files added before committing.
+// FIRST COMMIT
+// Snapshot immediately after the automated creation (Rails) of the application.
+#git commit -m "Message"
+#git status  // Will be fairly empty msg since a commit just occured.
+
+//--------------------------------------------------------
+// 2. Getting data from Bitbucket
+//--------------------------------------------------------
+
+//--------------------------------------------------------
+// 3. Getting data to Bitbucket
+//--------------------------------------------------------
+
+cd /path/to/my/repo
+git remote add origin https://codebeaver@bitbucket.org/codebeaver/app1.git
+git push -u origin --all # pushes up the repo and its refs for the first time
+git push -u origin --tags # pushes up any tags
